@@ -1,0 +1,16 @@
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting git+https://github.com/marafathussain/eisen-core.git
+  Cloning https://github.com/marafathussain/eisen-core.git to /tmp/pip-req-build-oizbadh0
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting torch
+Collecting nilearn>=0.6.0 (from eisen-core==0.0.9)
+  Using cached https://files.pythonhosted.org/packages/b9/c2/f5f1bdd37a3da28b3b34305e4ba27cce468db6073998d62a38abd0e281da/nilearn-0.6.2-py3-none-any.whl
+Collecting prettytable>=0.7.2 (from eisen-core==0.0.9)
+Requirement already satisfied: numpy>=1.18.0 in /home/marafath/.local/lib/python3.7/site-packages (from eisen-core==0.0.9) (1.18.4)
+Collecting torchvision>=0.7.0 (from eisen-core==0.0.9)
